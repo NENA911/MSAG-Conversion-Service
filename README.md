@@ -23,6 +23,6 @@ Specification Required. 
 
 ## Version History
 
-### Geocode Conversion Service v 1.0
+### MSAG Conversion Service v 1.0
 
 Version 1 OpenAPI schema for this service was originally defined in NENA-STA-010.3.2021. See https://www.nena.org/page/i3_Stage
