@@ -20,7 +20,7 @@ paths:
         required: true
       responses:
         '200':
-          description: Data successfully converted
+          description: Data Successfully Converted
           content:
             application/xml:
               schema:
@@ -54,7 +54,7 @@ paths:
         required: true
       responses:
         '200':
-          description: Data successfully converted
+          description: Data Successfully Converted
           content:
             application/xml:
               schema:
@@ -84,7 +84,7 @@ paths:
       operationId: RetrieveVersions
       responses:
         '200':
-          description: Versions found
+          description: Versions Found
           content:
             application/json:
               schema:
