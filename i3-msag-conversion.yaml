@@ -1,7 +1,7 @@
 openapi: 3.0.1
 info:
   title: MSAG Conversion Service
-  version: "1.0"
+  version: "1.0.1"
 servers:
   - url: http://localhost/Mcs/v1
 paths:
@@ -14,7 +14,7 @@ paths:
       requestBody:
         description: PIDF-LO data
         content:
-          application/json:
+          application/pidf+xml:
             schema:
               type: string
         required: true
@@ -48,7 +48,7 @@ paths:
       requestBody:
         description: MSAG data
         content:
-          application/json:
+          application/xml:
             schema:
               type: string
         required: true
