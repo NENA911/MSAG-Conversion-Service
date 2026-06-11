@@ -75,7 +75,7 @@ paths:
           description: Unknown MCS/GCS
   /Versions:
     servers:
-      - url: https://api.example.com/Mcs
+      - url: https://localhost/Mcs
         description: Override base path for Versions query
     get:
       tags:
@@ -88,7 +88,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: 'i3-common.yaml#/components/schemas/VersionsArray'
+                $ref: 'https://raw.githubusercontent.com/NENA911/i3-Common/refs/tags/v1.0.0/i3-common.yaml#/components/schemas/VersionsArray'
 components:
   schemas:
     PidfLoData:
